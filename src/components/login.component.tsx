@@ -107,7 +107,7 @@ export default class Login extends Component<Props, State> {
             >
               <Form>
                 <div className="form-group">
-                  <label htmlFor="username">Username</label>
+                  <label htmlFor="username">Логин</label>
                   <Field name="username" type="text" className="form-control" />
                   <ErrorMessage
                     name="username"
@@ -117,7 +117,7 @@ export default class Login extends Component<Props, State> {
                 </div>
   
                 <div className="form-group">
-                  <label htmlFor="password">Password</label>
+                  <label htmlFor="password">Пароль</label>
                   <Field name="password" type="password" className="form-control" />
                   <ErrorMessage
                     name="password"
@@ -131,7 +131,7 @@ export default class Login extends Component<Props, State> {
                     {loading && (
                       <span className="spinner-border spinner-border-sm"></span>
                     )}
-                    <span>Login</span>
+                    <span>ВОЙТИ</span>
                   </button>
                 </div>
   
