@@ -73,12 +73,54 @@ class App extends Component<Props, State> {
       <div>
         <nav className="navbar navbar-expand navbar-dark bg-dark">
           <Link to={"/"} className="navbar-brand">
-            bezKoder
+            ПАРИКМАХЕРСКАЯ
           </Link>
           <div className="navbar-nav mr-auto">
             <li className="nav-item">
               <Link to={"/home"} className="nav-link">
-                Home
+                ГЛАВНАЯ
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link to={"/home"} className="nav-link">
+                ЦЕНЫ
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link to={"/home"} className="nav-link">
+                МАСТЕР
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link to={"/home"} className="nav-link">
+                УСЛУГИ
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link to={"/home"} className="nav-link">
+                ОТЗЫВЫ
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link to={"/home"} className="nav-link">
+                КОНТАКТЫ
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link to={"/home"} className="nav-link">
+                ИНФО
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link to={"/home"} className="nav-link">
+                Тел. +375...
               </Link>
             </li>
 
@@ -116,7 +158,7 @@ class App extends Component<Props, State> {
               </li>
               <li className="nav-item">
                 <a href="/login" className="nav-link" onClick={this.logOut}>
-                  LogOut
+                  Выйти
                 </a>
               </li>
             </div>
@@ -124,13 +166,13 @@ class App extends Component<Props, State> {
             <div className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link to={"/login"} className="nav-link">
-                  Login
+                  Войти
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link to={"/register"} className="nav-link">
-                  Sign Up
+                  Зарегистрироваться
                 </Link>
               </li>
             </div>
